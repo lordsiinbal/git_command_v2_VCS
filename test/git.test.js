@@ -48,7 +48,7 @@ describe("Testing add()", function(){
         expect(output_add).to.equal('Successfully added as index file/s.');
         expect(output_status).to.equal('You have 0 change/s.\n');
     });
-    //I added this comment
+    //I added this
     it('Should success with path file "*"', function(){
         let wd = new WorkingDirectory();
         wd.addFile("index.html", "views", "<html>Hello</html>");
